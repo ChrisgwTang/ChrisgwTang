@@ -38,6 +38,30 @@ into business decisions. Currently seeking **Data Science internships**.
 | [**Palm-Tree Detection from UAV Imagery**](链接) | Detection + skeleton prediction pipeline on 3,000+ annotated images | YOLOv10, RT-DETR, CLIP |
 | [**AutoGen Inventory Chatbot**](链接) | Multi-agent chatbot with retrieval for inventory queries | AutoGen, RAG |
 
+## 🎨 AIGC Workflow (Tencent IEG Internship)
+
+During my internship, I built an end-to-end AIGC pipeline that connects
+asset understanding to controllable image generation:
+
+```mermaid
+flowchart LR
+    A[Image Tagging] --> B[LoRA Training]
+    B --> C[LLM Parsing]
+    C --> D[Structured Prompt]
+    D --> E[ComfyUI]
+    E --> F[Image Generation]
+```
+
+| Stage | What I did |
+|---|---|
+| **1. Image tagging** | Automated AI tagging for 102 game assets, reducing manual labeling time by 90% |
+| **2. LoRA training** | Trained LoRA models on tagged assets for downstream generation |
+| **3. LLM parsing** | Used an LLM to parse [user requests / tags / design briefs] into structured attributes |
+| **4. Structured prompt** | Converted parsed attributes into standardized prompts [with a fixed schema] |
+| **5. ComfyUI → generation** | Triggered ComfyUI workflows with the structured prompts and LoRAs to generate images |
+
+*Details are kept high-level due to confidentiality. No internal data, code, or assets are included in this repo.*
+
 ## 💼 Experience
 
 - **Tencent IEG**, Business Analyst Intern (2025–2026): SHAP-driven monetization insights, ARPU forecasting tool, automated AI tagging
