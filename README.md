@@ -1,10 +1,9 @@
 # Guowen (Christopher) Tang
 
-MS Applied Data Science @ **University of Chicago** (2026–2027) · 
-B.A. CS & B.S. Mathematical Business @ **Wake Forest University**
+MS Applied Data Science @ **University of Chicago** · Previously at **Tencent IEG** and **Bosch China**
 
 I build machine learning and LLM-based systems that turn messy data 
-into business decisions. Currently seeking **Data Science internships**.
+into business decisions. Currently seeking **Data Scientist full-time/intern roles**.
 
 📍 Chicago, IL · 📫 guowent0309@outlook.com · 
 💼 [LinkedIn](https://www.linkedin.com/in/guowen-tang0309/)
@@ -29,7 +28,9 @@ into business decisions. Currently seeking **Data Science internships**.
 ![Tableau](https://img.shields.io/badge/-Tableau-E97627?logo=tableau&logoColor=white)
 ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?logo=powerbi&logoColor=black)
 
-## 🎨 AIGC Workflow (Tencent IEG Internship)
+## 🗂 Past Projects
+
+### 🎨 AIGC Workflow (Tencent IEG Internship)
 
 During my internship, I built an end-to-end AIGC pipeline that connects
 asset understanding to controllable image generation:
@@ -53,7 +54,7 @@ flowchart LR
 
 *Details are kept high-level due to confidentiality. No internal data, code, or assets are included in this repo.*
 
-## 📈 ARPU Forecasting Tool (Tencent IEG Internship)
+### 📈 ARPU Forecasting Tool (Tencent IEG Internship)
 
 I built and deployed an SKU-level ARPU forecasting model that turned a recurring
 manual analysis into a reusable tool for business users.
@@ -76,6 +77,28 @@ flowchart LR
 | **5. Impact** | Converted recurring analysis into a decision-support workflow |
 
 *Details are kept high-level due to confidentiality. No internal data, code, or metrics beyond those listed are included.*
+
+### 🤖 Inventory Chatbot Agent (Bosch China Internship)
+
+I contributed to an AutoGen-based inventory chatbot, working on feature development and
+prompt engineering on top of an existing multi-agent framework built by teammates.
+
+```mermaid
+flowchart LR
+    A[User Query] --> B[AutoGen Agent Framework]
+    B --> C[Retrieval]
+    C --> D[Workflow Automation]
+    D --> E[Response]
+```
+
+| Area | What I did |
+|---|---|
+| **Feature development** | Added new features to the existing AutoGen-based agent |
+| **Prompt engineering** | Designed and iterated prompts for agent roles, query understanding, and response formatting |
+| **Retrieval & workflow** | Integrated retrieval and workflow automation into the agent's query handling |
+| **Impact** | Reduced query-resolution time by 60% |
+
+*The agent framework was developed by teammates. Details are kept high-level due to confidentiality. No internal data, code, or system names are included in this repo.*
 
 ## 🎓 Education
 
