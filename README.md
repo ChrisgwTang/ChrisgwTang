@@ -62,6 +62,30 @@ flowchart LR
 
 *Details are kept high-level due to confidentiality. No internal data, code, or assets are included in this repo.*
 
+## 📈 ARPU Forecasting Tool (Tencent IEG Internship)
+
+I built and deployed an SKU-level ARPU forecasting model that turned a recurring
+manual analysis into a reusable tool for business users.
+
+```mermaid
+flowchart LR
+    A[SKU Sales Data Collection] --> B[Data Structuring & Features]
+    B --> C[Model Benchmarking]
+    C --> D[Packaging]
+    D --> E[Deployment on Tencent Cloud]
+    E --> F[Business Users]
+```
+
+| Stage | What I did |
+|---|---|
+| **1. Data** | Gathered and structured SKU-level sales data [from multiple sources] |
+| **2. Modeling** | Benchmarked CatBoost and LightGBM for SKU-level ARPU forecasting, reaching 0.01 MAE |
+| **3. Packaging** | Packaged the model into a reusable prediction tool [with a standardized input format] |
+| **4. Deployment** | Deployed it on Tencent Cloud [as an internal service / web tool] for business users |
+| **5. Impact** | Converted recurring analysis into a decision-support workflow [used by ___ team] |
+
+*Details are kept high-level due to confidentiality. No internal data, code, or metrics beyond those listed are included.*
+
 ## 💼 Experience
 
 - **Tencent IEG**, Business Analyst Intern (2025–2026): SHAP-driven monetization insights, ARPU forecasting tool, automated AI tagging
