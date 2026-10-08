@@ -56,8 +56,8 @@ flowchart LR
 |---|---|
 | **1. Image tagging** | Automated AI tagging for 102 game assets, reducing manual labeling time by 90% |
 | **2. LoRA training** | Trained LoRA models on tagged assets for downstream generation |
-| **3. LLM parsing** | Used an LLM to parse [user requests / tags / design briefs] into structured attributes |
-| **4. Structured prompt** | Converted parsed attributes into standardized prompts [with a fixed schema] |
+| **3. LLM parsing** | Used LLM to parse user requests / tags / design briefs into structured attributes |
+| **4. Structured prompt** | Converted parsed attributes into standardized prompts with a fixed schema|
 | **5. ComfyUI → generation** | Triggered ComfyUI workflows with the structured prompts and LoRAs to generate images |
 
 *Details are kept high-level due to confidentiality. No internal data, code, or assets are included in this repo.*
@@ -80,7 +80,7 @@ flowchart LR
 |---|---|
 | **1. Data** | Gathered and structured SKU-level sales data |
 | **2. Modeling** | Benchmarked CatBoost and LightGBM for SKU-level ARPU forecasting, reaching 0.01 MAE |
-| **3. Packaging** | Packaged the model into a reusable prediction tool [with a standardized input format] |
+| **3. Packaging** | Packaged the model into a reusable prediction tool  |
 | **4. Deployment** | Deployed it on Tencent Cloud as an internal service  for business users |
 | **5. Impact** | Converted recurring analysis into a decision-support workflow |
 
@@ -88,12 +88,10 @@ flowchart LR
 
 ## 🎓 Education
 
-**University of Chicago** · Chicago, IL
-*M.S. in Applied Data Science* · Sep 2026 – Dec 2027 (Expected)
-Relevant coursework: Time Series Analysis · GenAI & Agentic AI Applications · Cloud Native Data Engineering
-
-**Wake Forest University** · Winston-Salem, NC
-*B.A. in Computer Science & B.S. in Mathematical Business* · Aug 2021 – May 2025
+| School | Degree | Time |
+|---|---|---|
+| **University of Chicago** | M.S. in Applied Data Science  | Sep 2026 – Dec 2027 (Exp.) |
+| **Wake Forest University** | B.A. in Computer Science & B.S. in Mathematical Business | Aug 2021 – May 2025 |
 
 ## 💼 Experience
 
