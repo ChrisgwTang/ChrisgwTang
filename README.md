@@ -14,7 +14,7 @@ into business decisions. Currently seeking **Data Scientist full-time/intern rol
 
 - **Machine Learning & Forecasting**: gradient boosting (XGBoost, LightGBM, CatBoost), survival modeling, time series, causal discovery
 - **LLM & Agentic AI**: RAG, multi-agent systems (Microsoft AutoGen), workflow automation
-- **Computer Vision**: YOLO, RT-DETR, CLIP on UAV imagery
+- **Computer Vision**: Object detection, image segmentation, pose detection
 - **Analytics & Storytelling**: A/B testing, SHAP interpretability, Tableau, Power BI
 
 ## 🛠 Tech Stack
