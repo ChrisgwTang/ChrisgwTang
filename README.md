@@ -78,13 +78,22 @@ flowchart LR
 
 | Stage | What I did |
 |---|---|
-| **1. Data** | Gathered and structured SKU-level sales data [from multiple sources] |
+| **1. Data** | Gathered and structured SKU-level sales data |
 | **2. Modeling** | Benchmarked CatBoost and LightGBM for SKU-level ARPU forecasting, reaching 0.01 MAE |
 | **3. Packaging** | Packaged the model into a reusable prediction tool [with a standardized input format] |
-| **4. Deployment** | Deployed it on Tencent Cloud [as an internal service / web tool] for business users |
-| **5. Impact** | Converted recurring analysis into a decision-support workflow [used by ___ team] |
+| **4. Deployment** | Deployed it on Tencent Cloud as an internal service  for business users |
+| **5. Impact** | Converted recurring analysis into a decision-support workflow |
 
 *Details are kept high-level due to confidentiality. No internal data, code, or metrics beyond those listed are included.*
+
+## 🎓 Education
+
+**University of Chicago** · Chicago, IL
+*M.S. in Applied Data Science* · Sep 2026 – Dec 2027 (Expected)
+Relevant coursework: Time Series Analysis · GenAI & Agentic AI Applications · Cloud Native Data Engineering
+
+**Wake Forest University** · Winston-Salem, NC
+*B.A. in Computer Science & B.S. in Mathematical Business* · Aug 2021 – May 2025
 
 ## 💼 Experience
 
