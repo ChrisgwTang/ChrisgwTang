@@ -1,4 +1,4 @@
-# Hi, I'm Guowen Tang 👋
+# Guowen (Christopher) Tang
 
 MS Applied Data Science @ **University of Chicago** (2026–2027) · 
 B.A. CS & B.S. Mathematical Business @ **Wake Forest University**
@@ -29,15 +29,6 @@ into business decisions. Currently seeking **Data Science internships**.
 ![Tableau](https://img.shields.io/badge/-Tableau-E97627?logo=tableau&logoColor=white)
 ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?logo=powerbi&logoColor=black)
 
-## 📌 Featured Projects
-
-| Project | What it does | Tech |
-|---|---|---|
-| [**CIBMTR Survival Prediction**](链接) | Post-HCT survival models with fairness analysis across racial groups | XGBoost, CatBoost, LightGBM, Scikit-learn Pipelines |
-| [**TouringPlans Crowd-Level Clustering**](链接) | Evaluated Disney World's 10-level crowd framework with alternative segmentations | K-Means, GMM, Tableau |
-| [**Palm-Tree Detection from UAV Imagery**](链接) | Detection + skeleton prediction pipeline on 3,000+ annotated images | YOLOv10, RT-DETR, CLIP |
-| [**AutoGen Inventory Chatbot**](链接) | Multi-agent chatbot with retrieval for inventory queries | AutoGen, RAG |
-
 ## 🎨 AIGC Workflow (Tencent IEG Internship)
 
 During my internship, I built an end-to-end AIGC pipeline that connects
@@ -57,7 +48,7 @@ flowchart LR
 | **1. Image tagging** | Automated AI tagging for 102 game assets, reducing manual labeling time by 90% |
 | **2. LoRA training** | Trained LoRA models on tagged assets for downstream generation |
 | **3. LLM parsing** | Used LLM to parse user requests / tags / design briefs into structured attributes |
-| **4. Structured prompt** | Converted parsed attributes into standardized prompts with a fixed schema|
+| **4. Structured prompt** | Converted parsed attributes into standardized prompts with a fixed schema |
 | **5. ComfyUI → generation** | Triggered ComfyUI workflows with the structured prompts and LoRAs to generate images |
 
 *Details are kept high-level due to confidentiality. No internal data, code, or assets are included in this repo.*
@@ -80,8 +71,8 @@ flowchart LR
 |---|---|
 | **1. Data** | Gathered and structured SKU-level sales data |
 | **2. Modeling** | Benchmarked CatBoost and LightGBM for SKU-level ARPU forecasting, reaching 0.01 MAE |
-| **3. Packaging** | Packaged the model into a reusable prediction tool  |
-| **4. Deployment** | Deployed it on Tencent Cloud as an internal service  for business users |
+| **3. Packaging** | Packaged the model into a reusable prediction tool |
+| **4. Deployment** | Deployed it on Tencent Cloud as an internal service for business users |
 | **5. Impact** | Converted recurring analysis into a decision-support workflow |
 
 *Details are kept high-level due to confidentiality. No internal data, code, or metrics beyond those listed are included.*
@@ -90,12 +81,12 @@ flowchart LR
 
 | School | Degree | Time |
 |---|---|---|
-| **University of Chicago** | M.S. in Applied Data Science  | Sep 2026 – Dec 2027 (Exp.) |
+| **University of Chicago** | M.S. in Applied Data Science | Sep 2026 – Dec 2027 (Exp.) |
 | **Wake Forest University** | B.A. in Computer Science & B.S. in Mathematical Business | Aug 2021 – May 2025 |
 
 ## 💼 Experience
 
-- **Tencent IEG**, Business Analyst Intern (2025–2026): SHAP-driven monetization insights, ARPU forecasting tool, automated AI tagging
+- **Tencent IEG**, Business Analyst Intern (2025–2026): SHAP-driven monetization insights, AIGC workflow, ARPU forecasting tool
 - **Bosch China**, Strategic Algorithm Intern (2025): causal discovery on 700+ sensors, AutoGen chatbot
 - **WFU IRSC Lab**, Research Assistant (2025): UAV deep-learning pipeline
 
